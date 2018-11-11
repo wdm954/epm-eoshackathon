@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+body {
+    height: auto;
+}
+.view {
+    min-height: calc(100vh - 13.5rem);
+}
+.content-spacer {
+    height: 4vw;
+    min-height: 4rem;
+    max-height: 6rem;
+}
+.bounds {
+    margin: 0 auto;
+    padding: 0 3rem;
+    transition: padding 0.2s;
+}
+.cols {
+    display: flex;
+
+    .col {
+        flex: 1;
+    }
+}

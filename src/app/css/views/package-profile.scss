@@ -1,0 +1,60 @@
+.package-profile {
+
+    .profile-body {
+        flex: 2;
+
+        .heading {
+            padding: 3rem 0;
+
+            .description {
+                padding: 2rem 0;
+            }
+        }
+        .epm-install {
+            display: inline-block;
+            margin: 2rem 0;
+            padding: 2rem;
+            background-color: #ddd;
+
+            pre {
+                font-family: Menlo;
+            }
+        }
+        .readme {
+            padding-right: 3rem;
+
+            h1 {
+                margin: 2rem 0 4rem;
+                padding-bottom: 2rem;
+                border-bottom: 0.1rem solid #ddd;
+            }
+            p {
+                margin-bottom: 2rem;
+                line-height: 1.4em;
+                color: #444;
+            }
+        }
+    }
+    .profile-sidebar {
+        flex: 1;
+        margin: 5rem 0 2rem;
+        padding: 1rem 3rem;
+        border-left: 0.1rem solid #ddd;
+
+        .attributes {
+
+            .item {
+                margin-bottom: 3rem;
+
+                &:last-child {
+                    margin: 0;
+                }
+
+                .label {
+                    margin-right: 1rem;
+                    color: #999;
+                }
+            }
+        }
+    }
+}

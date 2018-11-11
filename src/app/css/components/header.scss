@@ -1,0 +1,33 @@
+.header {
+    color: #fff;
+    background-color: map-get($colors, lead);
+
+    .cols {
+        min-height: 7.2rem;
+        align-items: center;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+
+        svg {
+            fill: map-get($colors, white);
+        }
+        .logo-text {
+            margin-left: 0.5rem;
+            padding-top: 0.1rem;
+            font-size: 4.6rem;
+            font-weight: 400;
+        }
+    }
+    .user {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .name {
+            margin-right: 1.5rem;
+            font-weight: 400;
+        }
+    }
+}

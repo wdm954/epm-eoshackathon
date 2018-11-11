@@ -1,0 +1,25 @@
+{
+  "name": "epm",
+  "version": "1.0.0",
+  "description": "A command-line tool for EOS smart contracts package management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "EOS",
+    "Package",
+    "Manager"
+  ],
+  "author": "Gopal V, Bill M",
+  "license": "MIT",
+  "bin": {
+    "epm": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "progress": "^2.0.1",
+    "superagent": "^4.0.0-beta.5"
+  }
+}

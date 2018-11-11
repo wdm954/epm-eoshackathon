@@ -1,0 +1,64 @@
+.contract-list {
+    height: 100%;
+    padding-bottom: 4rem;
+    background-color: map-get($colors, clouds);
+
+    h1.category {
+        padding: 3rem;
+        text-transform: capitalize;
+
+        .icon {
+            margin-right: 1.5rem;
+        }
+    }
+    .contract {
+        margin-bottom: 2rem;
+        padding: 3rem 2rem;
+        background-color: map-get($colors, white);
+        border-radius: 0.5rem;
+        box-shadow: 0.2rem 0.2rem 2rem rgba(0,0,0,0.05);
+
+        .heading {
+            display: flex;
+            align-items: center;
+
+            svg {
+                width: 3rem;
+                height: 3rem;
+                margin-top: -0.2rem;
+                margin-right: 0.2rem;
+            }
+        }
+        a.package-link {
+            text-decoration: none;
+            color: #222;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .description {
+            padding: 1rem 0 2rem;
+        }
+        .version-author {
+            margin-bottom: 1rem;
+
+            .version {
+                font-weight: 400;
+            }
+            .author {
+                text-decoration: underline;
+            }
+        }
+        .downloads {
+
+            .count {
+                font-weight: 400;
+                margin-right: 0.5rem;
+            }
+        }
+        .view-package {
+            margin-right: 1rem;
+        }
+    }
+}

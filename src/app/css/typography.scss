@@ -1,0 +1,43 @@
+html,
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+body {
+    font-size: 1.6rem;
+    color: map-get($colors, lead);
+}
+h1 {
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.25em;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+h3 {
+    font-size: 1.17em;
+    font-weight: 400;
+    line-height: 1.37em;
+}
+b {
+    font-weight: 600;
+}
+.body-text {
+    font-size: 0.875em;
+    line-height: 1.3em;
+
+    &.muted {
+        color: map-get($colors, asbestos);
+    }
+}
+.text-right {
+    text-align: right;
+}
